@@ -95,31 +95,31 @@ tic_tac_toe.title("Tic-Tac-Toe")
 
 #Boutons du morpion
 
-Bouton_1 = tkinter.Button(tic_tac_toe, text=" ", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_1))
+Bouton_1 = tkinter.Button(tic_tac_toe, text=" ",font="Times", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_1))
 Bouton_1.grid(row=0, column=0)
 
-Bouton_2 = tkinter.Button(tic_tac_toe, text=" ", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_2))
+Bouton_2 = tkinter.Button(tic_tac_toe, text=" ",font="Times", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_2))
 Bouton_2.grid(row=0, column=1)
 
-Bouton_3 = tkinter.Button(tic_tac_toe, text=" ", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_3))
+Bouton_3 = tkinter.Button(tic_tac_toe, text=" ",font="Times", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_3))
 Bouton_3.grid(row=0, column=2)
 
-Bouton_4 = tkinter.Button(tic_tac_toe, text=" ", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb" ,command=lambda: placement_de_signe(Bouton_4))
+Bouton_4 = tkinter.Button(tic_tac_toe, text=" ",font="Times", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb" ,command=lambda: placement_de_signe(Bouton_4))
 Bouton_4.grid(row=1, column=0)
 
-Bouton_5 = tkinter.Button(tic_tac_toe, text=" ", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_5))
+Bouton_5 = tkinter.Button(tic_tac_toe, text=" ",font="Times", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_5))
 Bouton_5.grid(row=1, column=1)
 
-Bouton_6 = tkinter.Button(tic_tac_toe, text=" ", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_6))
+Bouton_6 = tkinter.Button(tic_tac_toe, text=" ",font="Times", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_6))
 Bouton_6.grid(row=1, column=2)
 
-Bouton_7 = tkinter.Button(tic_tac_toe, text=" ", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_7))
+Bouton_7 = tkinter.Button(tic_tac_toe, text=" ",font="Times", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_7))
 Bouton_7.grid(row=2, column=0)
 
-Bouton_8 = tkinter.Button(tic_tac_toe, text=" ", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_8))
+Bouton_8 = tkinter.Button(tic_tac_toe, text=" ",font="Times", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb", command=lambda: placement_de_signe(Bouton_8))
 Bouton_8.grid(row=2, column=1)
 
-Bouton_9 = tkinter.Button(tic_tac_toe, text=" ", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb",command=lambda: placement_de_signe(Bouton_9))
+Bouton_9 = tkinter.Button(tic_tac_toe, text=" ",font="Times", height=5, width=10,relief= "ridge",background="#ccbbbb",activebackground= "#ccbbbb",command=lambda: placement_de_signe(Bouton_9))
 Bouton_9.grid(row=2, column=2)
 
 tic_tac_toe.mainloop()
