@@ -1,5 +1,7 @@
 import tkinter
 from tkinter import messagebox
+from ia import *
+
 #Joueurs
 
 Joueur_1 = "X"
@@ -81,12 +83,20 @@ def placement_de_signe(y):
         y["text"] += "X"
         rounds += 1
         verification_X()
-    elif rounds%2 == 0 and Arret_de_partie == False and y ["text"] == " ":
+    elif rounds%2 == 0 and Arret_de_partie == False and y["text"] == " ":
         y["text"] += "O"
-        rounds += 1 
+        rounds += 1
         verification_O()
-    else:
+    elif y["text"] == " X" or y["text"] == " O":
         messagebox.showerror("Tic-Tac-Toe", "La case est déjà utilisée")
+
+def computerTurn():
+      global Arret_de_partie
+      global Bouton_1,Bouton_2, Bouton_3, Bouton_4, Bouton_5,Bouton_6,Bouton_7,Bouton_8,Bouton_9
+      if rounds%2 == 0:
+            ia([[Bouton_1,Bouton_2,Bouton_3],[Bouton_4,Bouton_5,Bouton_6],[Bouton_7,Bouton_8,Bouton_9]], signe="O")
+
+computerTurn()
 
 # Début de l'interface graphique
 
